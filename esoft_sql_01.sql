@@ -49,8 +49,8 @@ CREATE TABLE E_FOREIGNKEY(
     );
 
 
-# sql foreign key on alter table
-# SQL FOREIGN KEY ON ALTER TABLE
+#sql foreign key on alter table
+#SQL FOREIGN KEY ON ALTER TABLE
 
 ALTER TABLE D_PRIMARYKEY
 ADD FOREIGN KEY (age) REFERENCES E_FOREIGNKEY(orderid);
